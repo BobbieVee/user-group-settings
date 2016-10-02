@@ -2,7 +2,7 @@
 	<ul class='navbar navbar-default'>
 		<li> <a ui-sref='home'> Home </a> </li>
 		<li> <a ui-sref='settings'> Settings </a> </li>
-		<li ng-if='user'> <a uisref='login'> Login </a></li>
-		<li ng-if='!user' ng-click='logout()'>Log Out {{user.name}} {{user.group.name}} </li>
+		<li ng-if='!user.id'> <a ui-sref='login'> Login </a></li>
+		<li ng-if='!user.id' ng-click='logout()'>Log Out {{user.name}} {{user.group.name}} </li>
 	</ul>
 </div>

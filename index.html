@@ -1,16 +1,17 @@
 <html>
 	<head>
-		<script src='/node_modules/angular/angular.js'></script>
-		<script src='/browser/user/UserCtrl.js'></script>
-		<script src='/browser/user/UserDirectives.js'></script>
-		<script src='/browser/user/UserFactory.js'></script>
-		<script src='/browser/user/UserStates.js'></script>
-		<script src='/browser/navBar.directives.js'></script>
+
+		<script src='/angular/angular.js' defer></script>
+		<script src='/angular-ui-router/release/angular-ui-router.js' defer></script>
+		<script src='/app.js' defer></script>	
+		<script src='/user/UserCtrl.js' defer></script>
+		<script src='/user/UserDirectives.js' defer></script>
+		<script src='/user/UserFactory.js' defer></script>
+		<script src='/user/UserStates.js' defer></script>
+		<script src='/navBar.directives.js' defer></script>
 	</head>
 	<body ng-app='userApp'>
 	<nav-bar></nav-bar>
-	good!
-	{{100}}
-	<ui-sref></ui-sref>
+	<ui-view></ui-view>
 	</body>
 </html>
