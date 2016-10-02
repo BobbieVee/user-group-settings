@@ -1,17 +1,19 @@
 <html>
 	<head>
-
+		<link rel='stylesheet' href='/bootstrap/dist/css/bootstrap.css'>
 		<script src='/angular/angular.js' defer></script>
 		<script src='/angular-ui-router/release/angular-ui-router.js' defer></script>
 		<script src='/app.js' defer></script>	
-		<script src='/user/UserCtrl.js' defer></script>
-		<script src='/user/UserDirectives.js' defer></script>
-		<script src='/user/UserFactory.js' defer></script>
-		<script src='/user/UserStates.js' defer></script>
+		<script src='/group/GroupCtrl.js' defer></script>
+		<script src='/group/GroupFactory.js' defer></script>
+		<script src='/login/LoginCtrl.js' defer></script>
+		<script src='/login/UserDirectives.js' defer></script>
+		<script src='/login/LoginFactory.js' defer></script>
+		<script src='/login/UserStates.js' defer></script>
 		<script src='/navBar.directives.js' defer></script>
 	</head>
 	<body ng-app='userApp'>
-	<nav-bar></nav-bar>
+	<nav-bar user='user'></nav-bar>
 	<ui-view></ui-view>
 	</body>
 </html>

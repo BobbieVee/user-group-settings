@@ -7,12 +7,14 @@ userApp
 				url:'/',
 				templateUrl:'/home.html',
 			})
-			.state('settings',{
-				url:'/settings',
-				templateUrl:'settings.html',
-			})
 			.state('login',{
 				url:'/login',
-				templateUrl:'user/login.html',
+				templateUrl:'login/login.html',
+				controller:'LoginCtrl',
+			})
+			.state('settings',{
+				url:'/settings',
+				templateUrl:'/group/settings.html',
+				controller:'GroupCtrl',
 			})
 	})

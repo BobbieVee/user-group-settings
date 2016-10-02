@@ -1,0 +1,6 @@
+<select>
+	<option ng-model='select' ng-change='change()'>Admin</option>
+	<option ng-click='change()'>HR</option>
+
+	<option ng-repeat='group in groups' ng-model='select' ng-change='change()'>{{group}}</option>
+</select>
