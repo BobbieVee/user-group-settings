@@ -1,6 +1,6 @@
-userApp.redirective('navBar', function(){
+userApp.directive('navBar', function(){
 	return{
-		url:'/navBar',
+		//url:'/navBar',
 		templateUrl:'/navBar.html',
 	}
 })
