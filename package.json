@@ -9,7 +9,7 @@
   "repository": {
     "type": "git",
     "url": "git+https://github.com/BobbieVee/user-group-settings.git",
-    "start": "nodemon --ignore browser server "
+    "start": "nodemon --ignore 'browser' server "
   },
   "author": "",
   "license": "ISC",
