@@ -1,0 +1,8 @@
+<div class='container'>
+	<ul class='nav nav-bar'>
+		<li> Home </li>
+		<li> Setting </li>
+		<li ng-if='user'> Login </li>
+		<li ng-if='!user'> Log Out {{user.name}} {{user.group.name}} </li>
+	</ul>
+</div>
