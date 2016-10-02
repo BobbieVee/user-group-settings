@@ -1,1 +1,1 @@
-myApp.config(function)
+//myApp.config(function)
